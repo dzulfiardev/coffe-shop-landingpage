@@ -786,6 +786,7 @@ footer .icon a {
     overflow-x: hidden;
   }
   #nav.fixed-top {
+    width: 100%;
     background-color: white !important;
     padding: 5px !important;
   }
