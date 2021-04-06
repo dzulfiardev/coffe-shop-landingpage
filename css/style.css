@@ -782,7 +782,9 @@ footer .icon a {
         color: black!important;
         
     } */
-
+  body {
+    overflow-x: hidden;
+  }
   #nav.fixed-top {
     background-color: white !important;
     padding: 5px !important;
