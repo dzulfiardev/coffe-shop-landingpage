@@ -443,7 +443,7 @@ html {
 }
 
 #section-menu {
-  padding: 50px;
+  padding: 50px 150px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -476,10 +476,10 @@ html {
   color: rgba(0, 0, 0, 0.7);
 }
 
-.menu-1,
+/* .menu-1,
 .menu-2 {
-  padding: 20px 20px 0;
-}
+  padding: 20px 0;
+} */
 
 .table td p {
   font-size: 14px;
@@ -843,6 +843,12 @@ footer .icon a {
     grid-template-areas:
       "bgstore-1"
       "bgstore-2";
+  }
+}
+
+@media (max-width: 600px) {
+  #section-menu {
+    padding: 10px;
   }
 }
 
